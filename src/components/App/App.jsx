@@ -1,13 +1,13 @@
-import Reader from "../Reader/Reader";
+import ClickTracker from "../ClickTracker/ClickTracker";
 import css from "./App.module.css";
-import articles from "../../articles.json";
+
 
 export default function App() {
   
   return (
     <div className={css.container}>
 
-      <Reader articles={articles} /> 
+      <ClickTracker />
       
     </div>
   );
