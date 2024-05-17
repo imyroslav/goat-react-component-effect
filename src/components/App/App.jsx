@@ -1,5 +1,6 @@
 // import ClickTracker from "../ClickTracker/ClickTracker";
 import { useState } from "react";
+import ClickTracker from "../ClickTracker/ClickTracker";
 import Timer from "../Timer/Timer";
 import css from "./App.module.css";
 
@@ -13,7 +14,7 @@ export default function App() {
       <h1>Effects in React</h1>
 
 
-      {/* <ClickTracker /> */}
+      <ClickTracker /> 
 
       <button onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? "Close" : "Open"}
